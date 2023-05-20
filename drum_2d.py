@@ -5,8 +5,8 @@ import matplotlib as mpl
 from matplotlib.axes import Axes as mpl_Axes
 from matplotlib import path
 import matplotlib.pyplot as plt
-from scipy import ndimage
-import scipy.ndimage.filters
+#from scipy import ndimage
+#import scipy.ndimage.filters
 
 
 def plot_vertices(vertices: Dict[str, np.ndarray], show: bool = True) -> list[mpl_Axes]:

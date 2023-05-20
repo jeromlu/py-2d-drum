@@ -14,7 +14,7 @@ $ErrorActionPreference = 'Stop'
 $buildDirName = "build"
 # Name of the file that will be compiled. Output files will also be named with the same name.
 #$fileName = "brachytherapyNotes"
-$fileName = "brachy_notes_main"
+$fileName = "mafija2_porocilo"
 $BUILD_DIR = "$PSScriptRoot\$buildDirName"
 
 function Remove-ByForce {
