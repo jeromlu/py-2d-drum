@@ -1,3 +1,5 @@
 .vscode
 venv
+report/build
+*.aux
 
