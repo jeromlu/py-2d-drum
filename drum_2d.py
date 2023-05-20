@@ -64,7 +64,7 @@ def main():
     print("Cat")
     print(drum1)
     grid1 = create_grid(4)
-    axes[0].scatter(grid1[0], grid1[1], color="red")
+    axes[0].scatter(grid1[0], grid1[1], color="gold")
     in_points1 = interior_points(drum1, grid1)
     axes[0].scatter(in_points1[0], in_points1[1], color="green")
     grid2 = create_grid(4)
